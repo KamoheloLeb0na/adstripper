@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-brown-600 {
+  background-color: #8B4513; /* Brown color */
+}
+
+.bg-brown-50 {
+  background-color: #F5F5DC; /* Light brown or a contrasting shade */
+}
+
+.text-brown-600 {
+  color: #8B4513; /* Brown color */
+}
